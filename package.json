@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "lint" : "eslint . -f html -o test.html"
+    "lint" : "eslint . -f html -o test.html",
+    "lintv": "eslint --version"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
